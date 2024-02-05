@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_forkumargaurav_go_pipeline_sample_1707128806142-push-trigger-input-set
+  identifier: Build_forkumargaurav_go_pipeline_sample_1707128806142pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo_handson
+  pipeline:
+    identifier: Build_forkumargaurav_go_pipeline_sample_1707128806142
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
