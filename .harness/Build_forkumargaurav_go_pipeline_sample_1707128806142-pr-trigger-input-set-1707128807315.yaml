@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_forkumargaurav_go_pipeline_sample_1707128806142-pr-trigger-input-set
+  identifier: Build_forkumargaurav_go_pipeline_sample_1707128806142prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo_handson
+  pipeline:
+    identifier: Build_forkumargaurav_go_pipeline_sample_1707128806142
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
